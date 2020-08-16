@@ -1,4 +1,4 @@
-### Changes from homebridge-ewelink-complete have been merged into the master
+### APIChanges from homebridge-ewelink-complete have been merged into the master
 
 The largest change here is to use evelink-api for all API needs rather than rewrite
 
@@ -19,7 +19,6 @@ It is possible to continute to use the OEM functionality (eWeLink app, Google Ho
 The plugin uses the same credentials as the eWeLink app. In order to obtain the authenticationToken, you'll need to use Charles to inspect the traffic and grab the value from the Authorization header. See below for information on how to obtain this value.
 
 Also, the code is of suboptimal quality. It was a quick-and-dirty plugin; feel free to contribute & improve.
-
 ## Steps to install / configure
 
 *Assuming that you've already downloaded the eWeLink app on your iOS device & have configured it:*
